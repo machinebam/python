@@ -5,7 +5,10 @@ import os
 # Search terms
 TERMS = '#yes'
 
-
+APP_KEY = ''
+APP_SECRET = ''
+OAUTH_TOKEN = ''
+OAUTH_TOKEN_SECRET = ''
 
 
 # Setup callbacks from Twython Streamer

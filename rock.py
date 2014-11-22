@@ -17,6 +17,8 @@ class BlinkyStreamer(TwythonStreamer):
                 if 'text' in data:
                         print data['text'].encode('utf-8')
                         os.system('omxplayer smell.wav')
+                     ## os.system('omxplayer -o local smell.wav') ## Play through headphone jack
+
                      
 
 # Create streamer
